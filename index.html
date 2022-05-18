@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="--bs-primary: #ededed;--bs-primary-rgb: 237,237,237;--bs-secondary: #658f51;--bs-secondary-rgb: 101,143,81;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>PortfolioRebuilt</title>
+    <title>Home - Portfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+    <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top navbar-custom" style="background: var(--bs-dark);border-color: var(--bs-gray);padding: 8px 0px;padding-top: 20px;">
-        <div class="container"><a class="navbar-brand" href="#" style="font-family: Poppins, sans-serif;">Martin Fish Portfolio</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+<body style="background: var(--bs-dark);" src="">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top navbar-custom" style="background: #000000;">
+        <div class="container"><a class="navbar-brand" href="#"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="font-size: 20px;">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item" style="border-radius: 0px;"><a class="nav-link" href="#gymapp" style="font-family: Roboto, sans-serif;">Gym App</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#calculatorapp" style="font-family: Roboto, sans-serif;">Calculator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gymApp" style="font-size: 15.8px;color: var(--bs-pink);">GYM App</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#calcApp" style="font-size: 15.8px;color: var(--bs-pink);">Calculator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#calcApp" style="font-size: 15.8px;color: var(--bs-pink);" data-bs-target="#FM22">FM22 Script</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="text-center text-white masthead" style="background: url(&quot;assets/img/orangehexbg.png&quot;) right / auto, var(--bs-orange);height: 335px;margin: 0px;margin-top: 0px;">
-        <div class="masthead-content" style="margin-top: 0px;">
-            <div class="container" style="margin-top: 56px;">
-                <h1 class="masthead-heading mb-0" style="margin-top: 0px;padding-top: 75px;font-family: Roboto, sans-serif;font-size: 55px;"><strong>Welcome To My Portfolio</strong></h1>
-                <h2 class="masthead-subheading mb-0" style="font-family: Roboto, sans-serif;"><br></h2>
+    <header class="text-center text-white masthead" style="background: url(&quot;assets/img/pinkcityscape.png&quot;) center, var(--bs-blue);height: 409.984px;padding-top: 140px;">
+        <div class="masthead-content">
+            <div class="container">
+                <h1 id="nameTitle" class="masthead-heading mb-0" style="text-shadow: 3px 3px 3px rgb(0,0,0);padding-bottom: 0px;">Martin Fish</h1>
+                <h2 class="masthead-subheading mb-0" style="text-shadow: 3px 3px rgb(0,0,0);padding-bottom: 0px;padding-top: 0px;">My Portfolio</h2>
             </div>
         </div>
     </header>
-    <h1 style="text-align: center;font-size: 55px;font-family: Roboto, sans-serif;"><strong>Projects</strong></h1>
-    <section id="gymapp">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5" style="padding-top: 48px;margin-bottom: 0px;">
-                        <h2 class="display-4" style="margin-bottom: 10px;padding-bottom: 0px;font-family: Roboto, sans-serif;"><strong>Gym App</strong></h2>
+    <section id="gymApp" onmouseover="chbg(&#39;red&#39;)" style="padding-bottom: 0px;padding-top: 0px;">
+        <div class="container" style="color: #36012a;margin-top: 75px;"></div>
+        <div class="container" style="background: #ffbadc;border-radius: 20px;border-width: 0px;border-style: solid;border-bottom-width: 0px;border-bottom-style: solid;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="p-5" style="padding-top: 48px;margin-bottom: 0px;font-family: Lato, sans-serif;">
+                        <h2 class="display-4" id="gymHeading" style="margin-bottom: 10px;padding-bottom: 0px;font-family: Roboto, sans-serif;text-shadow: 3px 3px 3px var(--bs-pink);"><strong>Gym App</strong></h2>
                         <p style="text-align: left;font-family: Poppins, sans-serif;">This app is for a hypothetical business aimed at customers who want relevant information and a way to track their workouts.&nbsp;<br>The frontend of this app is written in Java. The backend uses a simple Firestore NoSql database solution.<br></p>
                         <p id="timestamps1" style="text-align: left;margin-bottom: 0px;font-family: Roboto, sans-serif;font-size: 20px;"><strong>Timestamps for Video Demo</strong><br><br></p>
                         <p style="text-align: left;margin-bottom: 0px;font-family: Roboto, sans-serif;">Register new user - 0:00</p>
@@ -49,31 +48,54 @@
                         <p style="text-align: left;margin-bottom: 0px;font-family: Roboto, sans-serif;">Loading workout - 1:30</p>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5" style="height: 349px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/JycOG4alswE" width="100%" height="100%" style="padding-right: 0px;margin-right: 0px;"></iframe></div>
+                <div class="col-md-6">
+                    <div class="p-5" style="height: 349px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/JycOG4alswE" width="100%" height="100%" style="padding-right: 0px;margin-right: 0px;box-shadow: 4px 4px 4px 0px var(--bs-pink);border-radius: 20px;"></iframe></div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="calculatorapp" style="background: var(--bs-white);">
-        <div class="container">
+    <section id="calcApp">
+        <div class="container" style="color: #36012a;margin-top: 75px;"></div>
+        <div class="container" style="background: #baf7ff;border-radius: 20px;border-width: 0px;border-style: solid;border-right-width: 0px;border-bottom-width: 0px;border-bottom-style: solid;">
             <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-1">
+                <div class="col-lg-6 order-lg-2">
                     <div class="p-5" style="padding-top: 48px;margin-bottom: 0px;">
-                        <h2 class="display-4" style="margin-bottom: 0px;padding-bottom: 0px;margin-top: 10px;font-family: Roboto, sans-serif;"><strong>Calculator App</strong></h2>
+                        <h2 class="display-4" style="margin-bottom: 0px;padding-bottom: 0px;margin-top: 10px;font-family: Roboto, sans-serif;text-shadow: 3px 3px 3px var(--bs-info);"><strong>Calculator App</strong></h2>
                         <p style="text-align: left;font-family: Poppins, sans-serif;">The calculator app uses the mxparser library to parse strings containing mathematical expressions. I added a feature to solve simultaneous equations problems to challenge my problem solving skills as mxparser cannot handle algebraic expressions.<br></p>
                         <p id="timestamps-1" style="text-align: left;margin-bottom: 0px;font-size: 20px;font-family: Roboto, sans-serif;"><strong>Timestamps for Video Demo</strong><br><br></p>
                         <p style="text-align: left;margin-bottom: 0px;font-family: Roboto, sans-serif;">Calculator - 0:00</p>
                         <p style="text-align: left;margin-bottom: 0px;font-family: Roboto, sans-serif;">Simultaneous Equations Calculator - 0:30</p>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5" style="height: 349px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/kwA1FZqrln0" width="100%" height="100%" style="padding-right: 0px;margin-right: 0px;"></iframe></div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5" style="height: 349px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/kwA1FZqrln0" width="100%" height="100%" style="padding-right: 0px;margin-right: 0px;border-radius: 20px;box-shadow: 4px 4px 4px #0dcaf0;"></iframe></div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="FM22" style="padding-bottom: 60px;">
+        <div class="container" style="color: #36012a;margin-top: 75px;"></div>
+        <div class="container" style="background: #ffbadc;border-radius: 20px;border: 0px solid rgb(0,0,0) ;border-bottom-width: 0px;border-bottom-style: solid;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="p-5" style="padding-top: 48px;margin-bottom: 0px;font-family: Lato, sans-serif;">
+                        <h2 class="display-4" style="margin-bottom: 10px;padding-bottom: 0px;font-family: Roboto, sans-serif;text-shadow: 3px 3px 3px var(--bs-pink);">FM2022 Script</h2>
+                        <p style="text-align: left;font-family: Poppins, sans-serif;">A FM2022 save game is dictated heavily by behind the scenes attributes, this tool automates the lengthy process of changing these attributes to create a dynamically changing game. Data is read in through a .txt file. The script loops through the data and uses mouse &amp; keyboard inputs to perform actions</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-5" style="height: 349px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/6yZMOz01p2M" width="100%" height="100%" style="padding-right: 0px;margin-right: 0px;border-radius: 20px;box-shadow: 4px 4px 4px var(--bs-pink);"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 bg-black">
+        <div class="container">
+            <p class="text-center text-white m-0 small"></p>
+        </div>
+    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/colourstuff.js"></script>
 </body>
 
 </html>
